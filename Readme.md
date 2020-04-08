@@ -26,7 +26,8 @@
         
  Test the application from postman
  
- 1) Add a person api --> `http://localhost:8080/api/v1/create` 
+ 1) Add a person api(POST) --> `http://localhost:8080/api/v1/create` 
+
 
     Request Body -->
     {
@@ -34,13 +35,16 @@
     	"name":"person",
     	"age":22
     }
- 2) Get all persons api --> `http://localhost:8080/api/v1/getall` 
- 3) Update the existing person api --> `http://localhost:8080/api/v1/update`
+ 2) Get all persons api (GET)--> `http://localhost:8080/api/v1/getall` 
+
+ 3) Update the existing person api(PUT) --> `http://localhost:8080/api/v1/update`
+
 
     Request Body --> 
     {
         	"email":"person@gmail.com",
         	"name":"person_updated",
         	"age":22
-     }
- 4) Delete a person api --> `http://localhost:8080/api/v1/delete/"?email=person@gmail.com` 
+    }
+
+ 4) Delete a person api(DELETE) --> `http://localhost:8080/api/v1/delete/"?email=person@gmail.com` 
