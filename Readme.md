@@ -19,15 +19,16 @@
         
         Create table with name `persons` and key as `email` of type `string`
         
- 2)  
+ 2) 
     --> start the springboot application
         
         command `mvn spring-boot:run`
         
  Test the application from postman
  
- 1) Add a person api --> `http://localhost:8080/api/v1/create`    
-    Request Body -->  
+ 1) Add a person api --> `http://localhost:8080/api/v1/create` 
+
+    Request Body -->
     {
     	"email":"person@gmail.com",
     	"name":"person",
@@ -35,10 +36,11 @@
     }
  2) Get all persons api --> `http://localhost:8080/api/v1/getall` 
  3) Update the existing person api --> `http://localhost:8080/api/v1/update`
-    Request Body -->  
+
+    Request Body --> 
     {
         	"email":"person@gmail.com",
         	"name":"person_updated",
         	"age":22
      }
- 4) Delete a person api --> `http://localhost:8080/api/v1/delete/"?email=person@gmail.com`                 
+ 4) Delete a person api --> `http://localhost:8080/api/v1/delete/"?email=person@gmail.com` 
