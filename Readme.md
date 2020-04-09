@@ -17,7 +17,8 @@
         
         Now open browser and navigate to http://localhost:8001
         
-        Create table with name `persons` and key as `email` of type `string`
+        manually creation of table is not required
+        (Create table with name `persons` and key as `email` of type `string`)
         
  2) 
     --> start the springboot application
